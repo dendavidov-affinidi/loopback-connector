@@ -4,8 +4,6 @@
 // License text available at https://opensource.org/licenses/MIT
 
 'use strict';
-const SG = require('strong-globalize');
-SG.SetRootDir(__dirname);
 
 exports.Connector = require('./lib/connector');
 // Set up SqlConnector as an alias to SQLConnector
